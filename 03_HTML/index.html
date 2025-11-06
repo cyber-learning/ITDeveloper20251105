@@ -1,209 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <!-- <h1>Ciao</h1>
+    <h1>Facebook SignUp</h1>
 
-    <h2 class="redText">Titolo</h2>
-    <p id="paraBello" class="redText">Sono un paragrafo</p>
-    <span id="message">ciao a tutti</span>
+    <!--
+    <form action="">
+        <label for="firstnameInput">Inserisci il tuo nome</label>
+        <input id="firstnameInput" type="text" placeholder="">
 
-    <a href="" class="redText">cliccami</a> -->
-
-
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about-us.html">Chi siamo</a></li>
-            <li><a href="/ricette.html">Tutte le ricette</a></li>
-        </ul>
-    </nav>
-
-    <header>
-        <img src="" alt="">
-        <h1>Giallo Zafferano - Home</h1>
-        <p>Le migliori ricette le trovi solo qui</p>
-    </header>
-
-    <aside>
-        <section>
-            <h2>FrontEnd</h2>
-            <article>
-                <h3>Impara il CSS</h3>
-            </article>
-            <article>
-                <h3>Impara JS</h3>
-            </article>
-        </section>
-        <section>
-            <h2>Backend</h2>
-            <article>
-                <h3>Impara JavaEE</h3>
-            </article>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </nav>
-    </aside>
+        <label for="lastnameInput">Inserisci il tuo cognome</label>
+        <input id="lastnameInput" type="text" placeholder="">
+    </form> 
+    -->
 
 
-    <main>
-        <section>
-            <h3>Antipasti</h3>
-            <article>
-                <header>
-                    <h2>Nuvole di drago</h2>
-                </header>
-            </article>
+    <!-- 
+    <form action="/signup.html" method="post" enctype="application/x-www-form-urlencoded">
+        <input type="text" name="firstname" placeholder="Inserisci il tuo nome">
+        <input type="text" name="lastname" placeholder="Inserisci il tuo cognome">
 
-            <article>
-                <header>
-                    <img src="" alt="">
-                    <h2>Involtini primavera</h2>
-                    <p>Buoni ma pesanti</p>
-                </header>
-                <section>
-                    <h3>Ingredienti</h3>
-                    <ul>
-                        <li>olio fritto più volte</li>
-                        <li>pasta fillo</li>
-                        <li>carote</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Preparazione</h3>
-                    <ol>
-                        <li>adsads</li>
-                        <li>adsads</li>
-                        <li>adsads</li>
-                    </ol>
-                </section>
-                <aside>
+        <input type="submit" value="Iscriviti">
+        <button type="submit">Iscriviti</button>
+    </form> 
+    -->
 
-                </aside>
-                <footer>
-                    <h4>Credits</h4>
-                    <p>Ricetta del signor FurGon Cin</p>
-                    <p>Ultima modifica 06/11/2025</p>
+    <form action="">
+        <input type="text" name="firstname" placeholder="Inserisci il tuo nome">
+        <input type="text" name="lastname" placeholder="Inserisci il tuo cognome">
+        <input type="number" name="age" min="0" placeholder="Insersci la tua età">
+        <input type="email" name="email" placeholder="Inserisci la tua email">
+        <input type="password" name="password" placeholder="Inserisci una password">
 
+        <label for="termsAndConditionsInput">Accetti termini e condizioni?</label>
+        <input id="termsAndConditionsInput" type="checkbox" name="termsAndConditions" value="true">
 
-                    <h4>Commenti</h4>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </footer>
-            </article>
-        </section>
-
-
-        <section>
-            <h3>Primi piatti</h3>
-            <article>
-                <header>
-                    <img src="" alt="">
-                    <h2>Tagliatelle</h2>
-                    <p>Molto buone ma tagliano</p>
-                </header>
-                <div>
-                    <h3>Ingredienti</h3>
-                    <ul>
-                        <li>dsadsa</li>
-                        <li>dsadsa</li>
-                        <li>dsadsa</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Preparazione</h3>
-                    <ol>
-                        <li>Prendere una padella</li>
-                        <li>Tagliare la padella</li>
-                        <li>Buttare la pasta</li>
-                        <li>Servire freddo</li>
-                    </ol>
-                </div>
-                <aside>
-                    <!-- correlati -->
-                    <!-- varianti -->
-
-                    <h4>Potrebbero risultarti utili</h4>
-                    <ul>
-                        <li>Forbici</li>
-                        <li>pasta da grano italino</li>
-                        <li>Padella in sconto</li>
-                    </ul>
-                </aside>
-                <footer>
-                    <p>Ricetta della signora Mariangiongiangela</p>
-                </footer>
-            </article>
-
-            <article>
-                <header>
-                    <img src="" alt="">
-                    <h2>Carbonara</h2>
-                    <p></p>
-                </header>
-                <div>
-                    <h4>Ingredient</h4>
-                </div>
-                <div>
-                    <h4>Preparazione</h4>
-                </div>
-            </article>
-        </section>
-
-        <section>
-            <h3>Dolci</h3>
-            <article>
-                <header>
-                    <h2>Tiramisu</h2>
-                </header>
-            </article>
-
-            <article>
-                <header>
-                    <h2>Torta della nonna</h2>
-                </header>
-            </article>
-        </section>
-    </main>
-
-
-
-
-    <aside>
-        <p>Padella</p>
-    </aside>
-
-    <footer>
+        <!-- radio group  -->
         <div>
-            <h3>Giallo Zafferano srl</h3>
-            <p>Via fasulla 123, Milano</p>
-            <p>email</p>
-            <p>numero di telefono</p>
+            <h3>Scegli un gender:</h3>
+            
+            <label for="genderMaleInput">Uomo</label>
+            <input id="genderMaleInput" type="radio" name="gender" value="male">
+
+            <label for="genderFemaleInput">Donna</label>
+            <input id="genderFemaleInput" type="radio" name="gender" value="female">
+
+            <label for="genderFluidInput">Fluid</label>
+            <input id="genderFluidInput" type="radio" name="gender" value="fluid">
         </div>
-        <nav>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-        </nav>
-        <div>
-            <h3>Policies</h3>
-            <a href="">Privacy Policy</a>
-            <a href="">Termi e condizione</a>
-        </div>
-    </footer>
+
+        <label for="genderSelect">Gender</label>
+        <select name="gender" id="genderSelect">
+            <option value="" selected>Scegli un gender</option>
+            <option value="male">Uomo</option>
+            <option value="female">Donna</option>
+            <option value="fluid">Fluid</option>
+        </select>
+
+
+
+
+        <label for="">Parlaci di te</label>
+        <textarea name="aboutMe" id="" placeholder="parlaci di te" rows="10"></textarea>
+
+        <button type="submit">Iscriviti</button>
+    </form>
+
 </body>
-
 </html>
