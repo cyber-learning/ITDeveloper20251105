@@ -1,0 +1,64 @@
+
+/* 
+p {
+    color: rgb(255, 255, 0);
+    color: #FFFF00;
+
+    lista di fallback
+    font-family: "Montserrat", sans-serif;
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-style: italic; 
+    font-size: 11px;
+}
+
+h2 {
+    text-align: center;
+}
+*/
+
+
+
+
+/*
+p {
+    color: red;
+    color: yellow;
+}
+*/
+
+/*
+p {
+    color: red;
+}
+
+p {
+    color: yellow;
+}
+*/
+
+
+
+* {
+
+}
+
+header {
+    background-color: red;
+}
+
+p {
+    color: red;
+}
+
+
+.yellow-text {
+    color: yellow;
+}
+
+
+
+
+
+
