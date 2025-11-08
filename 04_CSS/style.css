@@ -40,25 +40,17 @@ p {
 
 
 
-* {
 
+
+.navbar {
+    background-color: rgb(11, 11, 207);
 }
 
-header {
-    background-color: red;
+.nav-link {
+
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+    text-transform: uppercase;
+    text-decoration: none;
 }
-
-p {
-    color: red;
-}
-
-
-.yellow-text {
-    color: yellow;
-}
-
-
-
-
-
-

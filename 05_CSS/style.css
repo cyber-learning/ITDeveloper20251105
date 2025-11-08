@@ -1,0 +1,195 @@
+/* CSS Reset - browser fatti i fatti tuoi cioè non utilizzare il tuo CSS di default */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .red-text {
+    color: red;
+} */
+
+/* 
+div {
+    background-image: url("https://picsum.photos/id/237/400/300");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-image: linear-gradient(128deg, rgba(42, 42, 155, 1) 0%, rgba(237, 83, 209, 1) 100%);
+}
+*/
+
+
+
+/*
+.container p {
+    background-color: red;
+}
+*/
+
+
+/*
+.container > p {
+    background-color: red;
+}
+*/
+
+/*
+h2, p, .card {
+    background-color: red;
+    color: white;
+}
+*/
+
+/*
+.bg-red {
+    background-color: red;
+}
+
+.text-white {
+    color: white;
+}
+*/
+
+/*
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+*/
+
+/*
+div {
+    width: 500px;
+    height: 700px;
+
+    background-color: blue;
+}
+
+p {
+    width: 50%;
+    height: 10%;
+
+    background-color: red;
+}
+*/
+
+/* 
+p {
+    width: 50vw;
+    height: 50vh;
+
+    background-color: red;
+}
+*/
+
+
+/* 
+p {
+
+
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-top-color: red;
+
+    border-right-width: 8px;
+    border-right-style: solid;
+    border-right-color: red;
+
+    shorthand
+    border-width: 8px;
+    border-style: solid;
+    border-color: red;
+
+    border-top: 8px solid red;
+    border-right: 8px solid red;
+
+    border: 8px solid red; 
+
+    border-radius: 24px;
+    box-shadow: 0px 4px 32px -8px rgba(0, 0, 0, 0.6);
+
+
+    padding-top: 48px;
+    padding-right: 36px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+
+    shorthand
+    padding: 48px 36px 24px 12px;   in senso orario a partire da top
+    padding: 48px 24px;     y x cioè verticale orizzontale
+    padding: 48px;          all
+    padding: 48px;
+
+    width: 200px;
+    height: 100px;
+}
+*/
+
+
+
+/* 
+
+
+p {
+    margin-bottom: 24px;
+
+    border: 2px solid red;
+    padding: 24px;
+}
+*/
+
+
+
+/* p {
+    box-sizing: border-box;
+
+    margin: 0px 20px;
+    border: 10px solid red;
+    padding: 0px 20px;
+
+    width: 500px;
+    height: 300px;
+
+    background-color: red;
+} */
+
+
+.container {
+    padding: 24px;
+}
+
+.card {
+    margin: 0px auto;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 32px -8px rgba(0, 0, 0, 0.4);
+    width: 50%;
+}
+
+.card img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.card .content {
+    padding: 24px;
+}
+
+
+/* 
+margin centering
+è necessario fissare una width per avere dello spazio vuoto da distribuire automaticametne sottoforma di margine
+p {
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 2px solid red;
+    width: 50%;     
+}
+*/
+
