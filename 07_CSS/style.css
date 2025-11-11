@@ -1,0 +1,316 @@
+:root {
+    --accent-color: #0cefd1;
+
+    /* font-size: 24px; */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .elementoBello {
+    margin-bottom: 12px;
+    padding: 24px;
+    width: 50%;
+    background-color: blue;
+}
+
+.elementoBello:hover {
+    width: 100%;
+    background-color: red;
+} */
+
+/* 
+.btn {
+    margin: 48px;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    background-color: #ff9800;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #dfae0d;
+}
+*/
+
+
+/* 
+input {
+    margin: 48px;
+}
+
+input:focus {
+    background-color: yellow;
+}
+ */
+
+/*
+
+div {
+    padding: 48px;
+}
+
+p:first-child {
+    color: red;
+}
+
+even odd
+p:nth-child(odd) {
+    color: red;
+}
+
+p:last-child {
+    color: blue;
+}
+*/
+
+
+/*
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    background-color: var(--accent-color);
+    color: white;
+}
+
+strong {
+    color: var(--accent-color);
+}
+*/
+
+
+/* 
+p {
+    font-size: 20px;
+
+    2 x font-size dell'elemento stesso
+    padding: 2em;
+}
+*/
+
+
+/* p {
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+    font-size: 2rem;
+} */
+
+/*
+h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+h2 {
+    margin-bottom: 0.75rem;
+    font-size: 2.5rem;
+}
+
+p {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+}
+*/
+
+
+/* 
+    viewport width 400px -> 16px + 4px
+    viewport width 800px -> 16px + 8px
+
+p {
+    font-size: calc(1rem + 1vw);
+}
+*/
+
+
+/*
+p {
+    background-color: red;
+}
+
+da un minimo di viewport width di 400px in su
+@media screen and (min-width: 400px) {
+    p {
+        background-color: green;
+    }
+}
+
+da un minimo di viewport width di 800px in su 
+@media screen and (min-width: 800px) {
+    p {
+        background-color: blue;
+    }
+}
+*/
+
+
+
+/*
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+@media screen and (min-width: 400px) {
+    .bg-400-red {
+        background-color: red;
+    }
+
+    .bg-400-green {
+        background-color: green;
+    }
+
+    .bg-400-blue {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .bg-800-red {
+        background-color: red;
+    }
+
+    .bg-800-green {
+        background-color: green;
+    }
+
+    .bg-800-blue {
+        background-color: blue;
+    }
+}
+
+*/
+
+
+
+/*
+main {
+    width: 100%;
+    background-color: red;
+}
+
+aside {
+    width: 100%;
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        width: 60%;
+    }
+
+    aside {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    main {
+        margin-left: 15%;
+        width: 40%;
+    }
+
+    aside {
+        width: 30%;
+    }
+}
+*/
+
+
+div {
+    background-color: blue;
+}
+
+p {
+    padding: 24px;
+    border: 2px solid red;
+    color: white;
+}
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: calc(4 / 12 * 100%);
+}
+
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+
+.col-12 {
+    width: calc(12 / 12 * 100%);
+}
+
+
+/* sm - da 576px di larghezza di schermo in su sto selezionando gli smartphone in landscape (orizzontale) */
+@media screen and (min-width: 576px) {
+    .col-sm-6 {
+        width: calc(6 / 12 * 100%);
+    }
+}
+
+/* md - da 768px di larghezza di schermo in su sto selezionando gli tablet in portrait (verticale) */
+@media screen and (min-width: 768px) {
+    .col-md-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-md-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+    .col-md-6 {
+        width: calc(6 / 12 * 100%);
+    }
+}
+
+/* lg - da 992px di larghezza di schermo in su sto selezionando gli tablet in landscape (orizzontale) + vecchi dispositivi desktop */
+@media screen and (min-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
