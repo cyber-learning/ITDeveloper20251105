@@ -59,6 +59,19 @@ if(screenWidth >= 400px) {
 }
 
 
+
+
+# Esercizio - Responsive Layout
+Definire 3 article all'interno del main.
+
+I 3 article:
+    devono disporsi uno sotto l'altro da smartphone in portrait in su
+    devono formare 2 colonne da tablet in portrait in su (cioè da md in su)
+    devono formare 3 colonne da desktop in su (cioè da lg in su)
+
+
+
+
 # References
 https://getbootstrap.com/docs/5.3/layout/breakpoints/
 

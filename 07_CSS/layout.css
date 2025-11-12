@@ -1,0 +1,74 @@
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: calc(4 / 12 * 100%);
+}
+
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+
+.col-12 {
+    width: calc(12 / 12 * 100%);
+}
+
+/* sm - da 576px di larghezza di schermo in su sto selezionando gli smartphone in landscape (orizzontale) */
+@media screen and (min-width: 576px) {
+    .col-sm-6 {
+        width: calc(6 / 12 * 100%);
+    }
+}
+
+/* md - da 768px di larghezza di schermo in su sto selezionando i tablet in portrait (verticale) */
+@media screen and (min-width: 768px) {
+    .col-md-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-md-4 {
+        width: calc(4 / 12 * 100%);
+    }
+
+    .col-md-6 {
+        width: calc(6 / 12 * 100%);
+    }
+
+    .col-md-8 {
+        width: calc(8 / 12 * 100%);
+    }
+}
+
+/* lg - da 992px di larghezza di schermo in su sto selezionando i tablet in landscape (orizzontale) + vecchi dispositivi desktop */
+@media screen and (min-width: 992px) {
+    .col-lg-4 {
+        width: calc(4 / 12 * 100%);
+    }
+}
+
+/* xl - da 992px di larghezza di schermo in su sto selezionando i tablet in landscape (orizzontale) + vecchi dispositivi desktop */
+@media screen and (min-width: 1200px) {
+
+    .offset-xl-3 {
+        margin-left: calc(3 / 12 * 100%);
+    }
+
+    .col-xl-2 {
+        width: calc(2 / 12 * 100%);
+    }
+
+    .col-xl-3 {
+        width: calc(3 / 12 * 100%);
+    }
+
+    .col-xl-4 {
+        width: calc(4 / 12 * 100%);
+    }
+}
