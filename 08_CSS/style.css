@@ -1,0 +1,188 @@
+:root {
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.container::before {
+    content: "";
+
+    display: block;
+    width: 100%;
+    height: 12px;
+    background-color: red;
+}
+
+.container::after {
+    content: "";
+
+    display: block;
+    width: 100%;
+    height: 12px;
+    background-color: red;
+}
+*/
+
+
+/*
+input {
+    margin: 48px;
+    border: none;
+}
+
+input:focus {
+    outline: 4px solid red;
+}
+*/
+
+/*
+input::placeholder {
+    color: red;
+}
+*/
+
+
+
+/* 
+p {
+    border: 2px solid red;
+    padding: 24px;
+}
+
+.elementoBello {
+    position: relative;
+    top: 60px;
+    left: 80px;
+
+    background-color: blue;
+}
+ */
+
+/*
+body {
+    padding: 48px;
+}
+
+p {
+    border: 2px solid red;
+    padding: 24px;
+}
+
+.super-container {
+    padding: 48px;
+    background-color: blue;
+}
+
+.container {
+    position: relative;
+
+    padding: 48px;
+    background-color: green;
+}
+
+.elementoBello {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: yellow;
+}
+*/
+
+
+
+
+/*
+.container {
+    position: relative;
+
+    display: block;
+
+    margin: 48px;
+    background-color: red;
+}
+
+.container > img {
+    display: block;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    color: white;
+    text-align: center;
+}
+*/
+
+
+/*
+p {
+    border: 2px solid red;
+    padding: 24px;
+}
+
+.elementoBello {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+
+    background-color: yellow;
+}
+*/
+
+/*
+p {
+    border: 2px solid red;
+    padding: 24px;
+}
+
+.elementoBello {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    background-color: yellow;
+}
+*/
+
+main {
+    position: relative;
+}
+
+
+p {
+    padding: 24px;
+    background-color: blue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    padding: 24px;
+    width: 100%;
+
+    /* background-color: white; */
+}
