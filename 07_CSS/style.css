@@ -257,6 +257,9 @@ aside {
 }
 */
 
+
+
+/*
 *{
     font-family: "Montserrat", sans-serif;
     color: white;
@@ -296,7 +299,6 @@ a {
     margin-left: calc(1.25rem / 2);
 }
 
-/* md - da 768px di larghezza di schermo in su sto selezionando i tablet in portrait (verticale) */
 @media screen and (min-width: 768px) {
     .navbar-btn {
         display: none;
@@ -306,3 +308,32 @@ a {
         display: block;
     }
 }
+*/
+
+
+
+/*
+a partire da un minimo di larghezza di schermo di 0px in su
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.4);
+    padding: 24px;
+}
+
+.navbar-expanded-menu {
+    display: none;
+}
+
+a partire da un minimo di larghezza di schermo di 768px in su
+@media screen and (min-width: 768px) {
+    .navbar-menu-btn {
+        display: none;
+    }
+
+    .navbar-expanded-menu {
+        display: block;
+    }
+}
+*/
